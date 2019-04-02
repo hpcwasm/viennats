@@ -15,6 +15,14 @@
             "title": "Stacked Nanosheet",
             "image": "cover.png",
             "description": "This is the short description of this simulation."
+        },   
+        {
+            "prefixpath": "stackednanosheet2",
+            "parfile": "parwasm.txt",
+            "geometries": ["sio2_periodic.vtk", "mask_periodic.vtk","single_gate_mask.vtk"],
+            "title": "Stacked Nanosheet 2",
+            "image": "cover.png",
+            "description": "This is the short description of this simulation."
         }
    
     ]
