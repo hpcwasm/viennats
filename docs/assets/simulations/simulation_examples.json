@@ -15,14 +15,6 @@
             "title": "Stacked Nanosheet",
             "image": "cover.png",
             "description": "This is the short description of this simulation."
-        },   
-        {
-            "prefixpath": "dummy1",
-            "parfile": "parwasm.txt",
-            "geometries": ["sio2_periodic.vtk", "mask_periodic.vtk","single_gate_mask.vtk"],
-            "title": "Dummy Copy",
-            "image": "cover.png",
-            "description": "This is the short description of this simulation."
         },
         {
             "prefixpath": "deposition3D",

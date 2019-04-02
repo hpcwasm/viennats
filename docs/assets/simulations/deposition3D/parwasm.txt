@@ -29,7 +29,7 @@ processes = {
 	finite_difference_scheme=ENGQUIST_OSHER_1ST_ORDER;
 	partition_data_structure=NEIGHBOR_LINKS_ARRAYS;
 	process_time=20;
-//        add_layer=1;
+        add_layer=1;
 	model_name="NonlinearDeposition";
 	parameters= {
 		direction		= {0,-1,0};
@@ -41,6 +41,7 @@ processes = {
 	};
 	print_velocities=false;
 	final_output=true;
-        output_volume={0};
+        output_volume={0,2,5,10,15,20};
      }
 };
+
