@@ -17,10 +17,18 @@
             "description": "This is the short description of this simulation."
         },   
         {
-            "prefixpath": "stackednanosheet2",
+            "prefixpath": "dummy1",
             "parfile": "parwasm.txt",
             "geometries": ["sio2_periodic.vtk", "mask_periodic.vtk","single_gate_mask.vtk"],
-            "title": "Stacked Nanosheet 2",
+            "title": "Dummy Copy",
+            "image": "cover.png",
+            "description": "This is the short description of this simulation."
+        },
+        {
+            "prefixpath": "deposition3D",
+            "parfile": "parwasm.txt",
+            "geometries": ["3d_hole.dx"],
+            "title": "Deposition 3D",
             "image": "cover.png",
             "description": "This is the short description of this simulation."
         }
