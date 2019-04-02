@@ -1616,7 +1616,9 @@ THE SOFTWARE.
 
 @angular/material/divider
 
-@angular/material/checkbox
+@angular/material/radio
+
+@angular/material/slider
 
 @angular/material/icon
 
