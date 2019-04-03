@@ -11,7 +11,7 @@ output_path="./results_tilted/";
 
 cfl_condition = 0.45;
 
-grid_delta=0.49999e-8;
+grid_delta=0.49999;
 
 default_disk_orientation={0,1,0};
 
@@ -20,8 +20,6 @@ num_dimensions = 2;
 omp_threads=1;
 
 open_boundary="+y";
-
-input_scale=1e-8;
 
 boundary_conditions = {
 	{PERIODIC, PERIODIC},
@@ -47,6 +45,8 @@ processes={
 		
 		parameters= {
 			direction={-0.05,-1,0};
+
+			length_scale=1e-9; // scale in metres, the scale used here is nanometres
 
 	    		statistical_accuracy=200;
 
