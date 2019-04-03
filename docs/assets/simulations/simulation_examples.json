@@ -1,5 +1,14 @@
 {
     "simulations": [
+	{
+            "devicelevel": 1,
+            "prefixpath": "HARPhysical",
+            "parfile": "HARPhysical.txt",
+            "geometries": ["trench_mask.dx"],
+            "title": "Physical HAR Etch",
+            "image": "cover.png",
+            "description": "This is the short description of this simulation."
+        },
         {
             "devicelevel": 1,
             "prefixpath": "deposition2D",
