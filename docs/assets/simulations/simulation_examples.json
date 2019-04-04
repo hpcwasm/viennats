@@ -2,6 +2,24 @@
     "simulations": [
       {
            "devicelevel": 1,
+           "prefixpath": "CylinderPhysical",
+           "parfile": "CylinderPhysical.txt",
+           "title": "Physical Hole Etching",
+           "geometries": ["bulk.vtk", "mask.vtk"],
+           "image": "cover.png",
+           "description": "Physical etching of a cylindrical hole."
+       },
+       {
+            "devicelevel": 1,
+            "prefixpath": "CylinderEmulate",
+            "parfile": "CylinderEmulate.txt",
+            "geometries": ["bulk.vtk", "mask.vtk"],
+            "title": "Geometric Hole Etching",
+            "image": "cover.png",
+            "description": "Geometric etching of a cylindrical hole."
+        },
+      {
+           "devicelevel": 1,
            "prefixpath": "VoidPhysical",
            "parfile": "VoidPhysical.txt",
            "title": "Physical Air Gap Deposition",
