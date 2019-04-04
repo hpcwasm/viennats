@@ -38,7 +38,7 @@ processes={
      {
         model_name="Mask";
         parameters={
-            mask_file="mask.vtk";
+            mask_file="./mask.vtk";
         };
     },
     {
