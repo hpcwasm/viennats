@@ -2,7 +2,7 @@
     "simulations": [
       {
            "devicelevel": 1,
-           "prefixpath": "Voidhysical",
+           "prefixpath": "VoidPhysical",
            "parfile": "VoidPhysical.txt",
            "title": "Physical Air Gap Deposition",
            "geometries": ["trench.vtp"],
