@@ -1,5 +1,23 @@
 {
     "simulations": [
+      {
+           "devicelevel": 1,
+           "prefixpath": "Voidhysical",
+           "parfile": "VoidPhysical.txt",
+           "title": "Physical Air Gap Deposition",
+           "geometries": ["trench.vtp"],
+           "image": "cover.png",
+           "description": "Physical deposition process creating an air gap."
+       },
+       {
+            "devicelevel": 1,
+            "prefixpath": "VoidEmulate",
+            "parfile": "VoidEmulate.txt",
+            "geometries": ["trench.vtp"],
+            "title": "Geometric Air Gap Deposition",
+            "image": "cover.png",
+            "description": "Geometric deposition creating an air gap."
+        },
 	     {
             "devicelevel": 1,
             "prefixpath": "HARPhysical",
