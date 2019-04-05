@@ -1,4 +1,4 @@
-geometry_files="./trench.vtp";
+geometry_files="./trench.vtk";
 surface_geometry=true;
 
 print_rates=true;
