@@ -44,7 +44,7 @@ processes={
 		final_output=true;
 		
 		parameters= {
-			direction={-0.05,-1,0};
+			direction={0,-1,0};
 
 			length_scale=1e-9; // scale in metres, the scale used here is nanometres
 
