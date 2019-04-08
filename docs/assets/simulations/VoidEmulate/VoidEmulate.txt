@@ -12,7 +12,7 @@ output_path="./results/";
 
 cfl_condition = 0.45;
 
-grid_delta=0.49999;
+grid_delta=0.029999;
 
 default_disk_orientation={0,1,0};
 
