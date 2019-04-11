@@ -71,7 +71,7 @@
         {
             "devicelevel": 1,
             "prefixpath": "deposition2D",
-            "parfile": "deposition2D.txt",
+            "parfile": "parwasm.txt",
             "geometries": [
                 "geometry2.dx"
             ],
@@ -82,9 +82,9 @@
         {
             "devicelevel": 2,
             "prefixpath": "deposition3D",
-            "parfile": "deposition3D.txt",
+            "parfile": "parwasm.txt",
             "geometries": [
-                "3d_hole.vtk"
+                "3d_hole.dx"
             ],
             "title": "Physical Deposition",
             "image": "cover.png",
