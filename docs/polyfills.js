@@ -2253,8 +2253,10 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
     };
   },
   "6daw": function daw(t, e) {
-    if ("undefined" == typeof TextEncoder) {
-      TextEncoder = function TextEncoder() {}, TextEncoder.prototype.encode = function (t) {
+    if (void 0 === n) {
+      var n = function n() {};
+
+      n.prototype.encode = function (t) {
         "use strict";
 
         for (var e = t.length, n = -1, r = "undefined" == typeof Uint8Array ? new Array(1.5 * e) : new Uint8Array(3 * e), o = 0, i = 0, a = 0; a !== e;) {
@@ -2279,22 +2281,22 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
         }
 
         return "undefined" != typeof Uint8Array ? r.subarray(0, n + 1) : (r.length = n + 1, r);
-      }, TextEncoder.prototype.toString = function () {
+      }, n.prototype.toString = function () {
         return "[object TextEncoder]";
       };
 
       try {
-        Object.defineProperty(TextEncoder.prototype, "encoding", {
+        Object.defineProperty(n.prototype, "encoding", {
           get: function get() {
-            if (TextEncoder.prototype.isPrototypeOf(this)) return "utf-8";
+            if (n.prototype.isPrototypeOf(this)) return "utf-8";
             throw TypeError("Illegal invocation");
           }
         });
-      } catch (n) {
-        TextEncoder.prototype.encoding = "utf-8";
+      } catch (r) {
+        n.prototype.encoding = "utf-8";
       }
 
-      "undefined" != typeof Symbol && (TextEncoder.prototype[Symbol.toStringTag] = "TextEncoder");
+      "undefined" != typeof Symbol && (n.prototype[Symbol.toStringTag] = "TextEncoder");
     }
   },
   "7h0T": function h0T(t, e, n) {
